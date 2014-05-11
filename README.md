@@ -25,9 +25,6 @@ bs-css-hacks
 @import "mixins/progress-bar.less";
 @import "mixins/table-row.less";
 
-// Skins
-@import "mixins/gradients.less";
-
 // Layout
 @import "mixins/clearfix.less";
 @import "mixins/center-block.less";
