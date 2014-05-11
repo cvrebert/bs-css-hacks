@@ -12,7 +12,7 @@ bs-css-hacks
 @import "buttons.less";
 
 // Components
-@import "component-animations.less";
+https://github.com/twbs/bootstrap/pull/3552
 @import "dropdowns.less";
 @import "button-groups.less";
 @import "input-groups.less";
