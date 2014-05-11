@@ -6,7 +6,6 @@ bs-css-hacks
 // --------------------------------------------------
 
 // Utilities
-@import "mixins/image.less";
 @import "mixins/resize.less";
 @import "mixins/responsive-visibility.less";
 @import "mixins/size.less";
