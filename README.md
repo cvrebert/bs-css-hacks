@@ -25,9 +25,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "popovers.less";
 @import "carousel.less";
 
-// Utility classes
-@import "utilities.less";
-
 //--------------
 
 // IE10 in Windows (Phone) 8
