@@ -46,6 +46,10 @@ fieldset {
 * https://github.com/twbs/bootstrap/pull/3552
 
 ---
+Android `<select>` bug
+---
+IE viewport width bug
+---
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
