@@ -5,8 +5,6 @@ bs-css-hacks
 `resize` requires `overflow: auto;` in Safari (version unknown)
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 //--------------
--ms-transform: skewX(@x) skewY(@y); // See https://github.com/twbs/bootstrap/issues/4885; IE9+
-//--------------
   &::-moz-placeholder           { color: @color;   // Firefox
                                   opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
 //--------------
