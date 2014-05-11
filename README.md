@@ -23,7 +23,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "modals.less";
 @import "tooltip.less";
 @import "popovers.less";
-@import "carousel.less";
 
 //--------------
 
@@ -44,3 +43,15 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @-ms-viewport {
   width: device-width;
 }
+
+//--------------
+    // IE8-9 hack for event handling
+    //
+    // Internet Explorer 8-9 does not support clicks on elements without a set
+    // `background-color`. We cannot use `filter` since that's not viewed as a
+    // background color by the browser. Thus, a hack is needed.
+    //
+    // For IE8, we set solid black as it doesn't support `rgba()`. For IE9, we
+    // set alpha transparency for the best results possible.
+    background-color: #000 \9; // IE8
+    background-color: rgba(0,0,0,0); // IE9
