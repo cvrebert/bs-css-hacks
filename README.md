@@ -34,6 +34,7 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 &::-moz-placeholder           { opacity: 1; }
 ```
 * MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
+
 ---
 ```
 https://github.com/twbs/bootstrap/pull/3552
