@@ -1,6 +1,6 @@
 bs-css-hacks
 ============
-
+```
 // Core variables and mixins
 @import "mixins.less";
 
@@ -55,3 +55,4 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
     // set alpha transparency for the best results possible.
     background-color: #000 \9; // IE8
     background-color: rgba(0,0,0,0); // IE9
+```
