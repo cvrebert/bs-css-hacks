@@ -26,7 +26,6 @@ bs-css-hacks
 @import "badges.less";
 @import "jumbotron.less";
 @import "alerts.less";
-@import "progress-bars.less";
 @import "media.less";
 @import "list-group.less";
 @import "panels.less";
