@@ -6,7 +6,6 @@ bs-css-hacks
 // --------------------------------------------------
 
 // Utilities
-@import "mixins/hide-text.less";
 @import "mixins/opacity.less";
 @import "mixins/image.less";
 @import "mixins/labels.less";
