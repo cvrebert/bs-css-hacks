@@ -4,6 +4,13 @@ bs-css-hacks
 @import "mixins/grid-framework.less";
 @import "forms.less";
 //--------------
+fieldset {
+  // Chrome and Firefox set a `min-width: -webkit-min-content;` on fieldsets,
+  // so we reset that to ensure it behaves more like a standard block element.
+  // See https://github.com/twbs/bootstrap/issues/12359.
+  min-width: 0;
+}
+//--------------
 `resize` requires `overflow: auto;` in Safari (version unknown)
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 //--------------
