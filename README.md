@@ -28,7 +28,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 // Components w/ JavaScript
 @import "modals.less";
 @import "tooltip.less";
-@import "popovers.less";
 
 //--------------
 // IE10 in Windows (Phone) 8
