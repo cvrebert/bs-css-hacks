@@ -16,9 +16,12 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "mixins/grid-framework.less";
 @import "scaffolding.less";
 @import "forms.less";
-@import "input-groups.less";
 @import "modals.less";
 
+//--------------
+// IE9 fubars the placeholder attribute in text inputs and the arrows on
+    // select elements in input groups. To fix it, we float the input. Details:
+    // https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
 //--------------
 // IE10 in Windows (Phone) 8
 //
