@@ -11,8 +11,6 @@ bs-css-hacks
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 //--------------
 @import "mixins/responsive-visibility.less";
-@import "mixins/text-emphasis.less";
-@import "mixins/text-overflow.less";
 @import "mixins/vendor-prefixes.less";
 
 // Components
