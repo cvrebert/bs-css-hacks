@@ -19,7 +19,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 @import "mixins/nav-divider.less";
 @import "mixins/forms.less";
 @import "mixins/progress-bar.less";
-@import "mixins/table-row.less";
 
 // Layout
 @import "mixins/clearfix.less";
