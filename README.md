@@ -20,7 +20,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 @import "mixins/forms.less";
 
 // Layout
-@import "mixins/clearfix.less";
 @import "mixins/center-block.less";
 @import "mixins/nav-vertical-align.less";
 @import "mixins/grid-framework.less";
