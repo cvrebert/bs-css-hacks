@@ -2,7 +2,6 @@ bs-css-hacks
 ============
 
 // Core variables and mixins
-@import "variables.less";
 @import "mixins.less";
 
 // Reset and dependencies
