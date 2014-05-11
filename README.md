@@ -14,7 +14,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 //--------------
 @import "mixins/grid-framework.less";
-@import "scaffolding.less";
 @import "forms.less";
 
 //--------------
