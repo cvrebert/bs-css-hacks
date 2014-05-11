@@ -20,7 +20,6 @@ https://github.com/twbs/bootstrap/pull/3552
 @import "media.less";
 @import "list-group.less";
 @import "panels.less";
-@import "wells.less";
 
 // Components w/ JavaScript
 @import "modals.less";
