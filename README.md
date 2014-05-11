@@ -43,14 +43,6 @@ fieldset {
 * http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 
 ---
-* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
-* https://github.com/twbs/bootstrap/pull/11526
-
-```css
-&::-moz-placeholder           { opacity: 1; }
-```
-
----
 * https://github.com/twbs/bootstrap/pull/3552
 
 ---
@@ -99,3 +91,8 @@ background-color: rgba(0,0,0,0); // IE9
 
 ---
 https://github.com/twbs/bootstrap/blob/master/docs/browser-bugs.html
+
+---
+## Results
+
+* https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
