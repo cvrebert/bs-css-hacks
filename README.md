@@ -10,7 +10,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
   &::-moz-placeholder           { color: @color;   // Firefox
                                   opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
 //--------------
-@import "mixins/responsive-visibility.less";
 // Components
 @import "mixins/list-group.less";
 @import "mixins/nav-divider.less";
