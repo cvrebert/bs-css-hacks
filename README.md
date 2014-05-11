@@ -90,7 +90,20 @@ background-color: rgba(0,0,0,0); // IE9
 ```
 
 ---
-https://github.com/twbs/bootstrap/blob/master/docs/browser-bugs.html
+The Fennec default gradient (& file border) can be negated by:
+```css
+button,
+textarea,
+input[type="text"],
+select[multiple]
+{
+  background-image: none;
+}
+
+input[type="file"] {
+  border: none;
+}
+```
 
 ---
 ## Results
