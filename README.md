@@ -19,7 +19,6 @@ https://github.com/twbs/bootstrap/pull/3552
 @import "labels.less";
 @import "badges.less";
 @import "jumbotron.less";
-@import "alerts.less";
 @import "media.less";
 @import "list-group.less";
 @import "panels.less";
