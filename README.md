@@ -10,6 +10,10 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
   &::-moz-placeholder           { color: @color;   // Firefox
                                   opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
 //--------------
+https://github.com/twbs/bootstrap/pull/3552
+//--------------
+https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
+
 // Layout
 @import "mixins/grid-framework.less";
 
@@ -19,11 +23,8 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 @import "forms.less";
 
 // Components
-https://github.com/twbs/bootstrap/pull/3552
-@import "dropdowns.less";
 @import "button-groups.less";
 @import "input-groups.less";
-https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "media.less";
 @import "list-group.less";
 
@@ -33,7 +34,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "popovers.less";
 
 //--------------
-
 // IE10 in Windows (Phone) 8
 //
 // Support for responsive views via media queries is kind of borked in IE10, for
@@ -51,7 +51,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @-ms-viewport {
   width: device-width;
 }
-
 //--------------
     // IE8-9 hack for event handling
     //
