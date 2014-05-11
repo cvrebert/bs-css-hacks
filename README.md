@@ -8,7 +8,6 @@ bs-css-hacks
 @import "scaffolding.less";
 @import "grid.less";
 @import "forms.less";
-@import "buttons.less";
 
 // Components
 https://github.com/twbs/bootstrap/pull/3552
