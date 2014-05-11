@@ -2,7 +2,16 @@ bs-css-hacks
 ============
 ```
 @import "mixins/grid-framework.less";
-@import "forms.less";
+//--------------
+// Special styles for iOS date input
+//
+// In Mobile Safari, date inputs require a pixel line-height that matches the
+// given height of the input. Since this fucks up everything else, we have to
+// appropriately reset it for Internet Explorer and the size variations.
+//--------------
+input[disabled] & {
+  opacity: 1; // iOS fix for unreadable disabled content
+}
 //--------------
 label {
   display: inline-block;
