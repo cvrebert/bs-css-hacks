@@ -15,7 +15,6 @@ https://github.com/twbs/bootstrap/pull/3552
 @import "button-groups.less";
 @import "input-groups.less";
 https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
-@import "labels.less";
 @import "media.less";
 @import "list-group.less";
 @import "panels.less";
