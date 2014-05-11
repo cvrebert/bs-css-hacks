@@ -11,7 +11,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
                                   opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
 //--------------
 // Components
-@import "mixins/list-group.less";
 @import "mixins/forms.less";
 
 // Layout
