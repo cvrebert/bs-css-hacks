@@ -1,50 +1,67 @@
 bs-css-hacks
 ============
 ```
-//--------------
 // Special styles for iOS date input
 //
 // In Mobile Safari, date inputs require a pixel line-height that matches the
 // given height of the input. Since this fucks up everything else, we have to
 // appropriately reset it for Internet Explorer and the size variations.
-//--------------
+```
+---
+```css
 input[disabled] & {
   opacity: 1; // iOS fix for unreadable disabled content
 }
-https://github.com/twbs/bootstrap/issues/11655
-//--------------
+```
+* https://github.com/twbs/bootstrap/issues/11655
+
+---
+```css
 label {
   display: inline-block;
-  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+  max-width: 100%; // Force IE8 to wrap long content
 }
-//--------------
+```
+* See https://github.com/twbs/bootstrap/issues/13141
+
+---
+```css
 fieldset {
   // Chrome and Firefox set a `min-width: -webkit-min-content;` on fieldsets,
   // so we reset that to ensure it behaves more like a standard block element.
-  // See https://github.com/twbs/bootstrap/issues/12359.
+  // 
   min-width: 0;
 }
-//--------------
-`resize` requires `overflow: auto;` in Safari (version unknown)
-http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 ```
+* See https://github.com/twbs/bootstrap/issues/12359.
+
 ---
+* `resize` requires `overflow: auto;` in Safari (version unknown)
+* http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
+
+---
+* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * https://github.com/twbs/bootstrap/pull/11526
+
 ```css
 &::-moz-placeholder           { opacity: 1; }
 ```
-* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
+
+---
+* https://github.com/twbs/bootstrap/pull/3552
+
+---
+* https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
 ```
-https://github.com/twbs/bootstrap/pull/3552
-//--------------
-https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
-//--------------
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
-// select elements in input groups. To fix it, we float the input. Details:
-// https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
-//--------------
+// select elements in input groups. To fix it, we float the input.
+```
+* Details: https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
+
+---
+```css
 // IE10 in Windows (Phone) 8
 //
 // Support for responsive views via media queries is kind of borked in IE10, for
@@ -62,7 +79,9 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @-ms-viewport {
   width: device-width;
 }
-//--------------
+```
+---
+```css
 // IE8-9 hack for event handling
 //
 // Internet Explorer 8-9 does not support clicks on elements without a set
