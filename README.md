@@ -14,7 +14,7 @@ https://github.com/twbs/bootstrap/pull/3552
 @import "dropdowns.less";
 @import "button-groups.less";
 @import "input-groups.less";
-@import "navs.less";
+https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "navbar.less";
 @import "labels.less";
 @import "media.less";
