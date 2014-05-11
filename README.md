@@ -8,7 +8,6 @@ bs-css-hacks
 // Utilities
 @import "mixins/resize.less";
 @import "mixins/responsive-visibility.less";
-@import "mixins/size.less";
 @import "mixins/tab-focus.less";
 @import "mixins/text-emphasis.less";
 @import "mixins/text-overflow.less";
