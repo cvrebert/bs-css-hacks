@@ -20,7 +20,6 @@ bs-css-hacks
 @import "mixins/vendor-prefixes.less";
 
 // Components
-@import "mixins/alerts.less";
 @import "mixins/buttons.less";
 @import "mixins/panels.less";
 @import "mixins/pagination.less";
@@ -31,7 +30,6 @@ bs-css-hacks
 @import "mixins/table-row.less";
 
 // Skins
-@import "mixins/background-variant.less";
 @import "mixins/border-radius.less";
 @import "mixins/gradients.less";
 
