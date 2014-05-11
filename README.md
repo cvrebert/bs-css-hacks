@@ -6,7 +6,10 @@ bs-css-hacks
 // --------------------------------------------------
 
 // Utilities
-@import "mixins/resize.less";
+//--------------
+`resize` requires `overflow: auto;` in Safari (version unknown)
+http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
+//--------------
 @import "mixins/responsive-visibility.less";
 @import "mixins/tab-focus.less";
 @import "mixins/text-emphasis.less";
