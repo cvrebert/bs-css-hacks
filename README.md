@@ -30,7 +30,6 @@ bs-css-hacks
 @import "mixins/table-row.less";
 
 // Skins
-@import "mixins/border-radius.less";
 @import "mixins/gradients.less";
 
 // Layout
