@@ -12,18 +12,11 @@ https://github.com/twbs/bootstrap/pull/3552
 //--------------
 https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
-// Layout
+//--------------
 @import "mixins/grid-framework.less";
-
-// Core CSS
 @import "scaffolding.less";
 @import "forms.less";
-
-// Components
 @import "input-groups.less";
-@import "media.less";
-
-// Components w/ JavaScript
 @import "modals.less";
 
 //--------------
