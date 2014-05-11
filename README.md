@@ -4,6 +4,11 @@ bs-css-hacks
 @import "mixins/grid-framework.less";
 @import "forms.less";
 //--------------
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+}
+//--------------
 fieldset {
   // Chrome and Firefox set a `min-width: -webkit-min-content;` on fieldsets,
   // so we reset that to ensure it behaves more like a standard block element.
