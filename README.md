@@ -4,9 +4,6 @@ bs-css-hacks
 // Core variables and mixins
 @import "mixins.less";
 
-// Reset and dependencies
-@import "print.less";
-
 // Core CSS
 @import "scaffolding.less";
 @import "code.less";
