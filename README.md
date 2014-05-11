@@ -29,7 +29,6 @@ bs-css-hacks
 @import "list-group.less";
 @import "panels.less";
 @import "wells.less";
-@import "close.less";
 
 // Components w/ JavaScript
 @import "modals.less";
