@@ -16,7 +16,6 @@ https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "mixins/grid-framework.less";
 @import "scaffolding.less";
 @import "forms.less";
-@import "modals.less";
 
 //--------------
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
