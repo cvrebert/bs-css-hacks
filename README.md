@@ -1,7 +1,6 @@
 bs-css-hacks
 ============
 ```
-@import "mixins/grid-framework.less";
 //--------------
 // Special styles for iOS date input
 //
