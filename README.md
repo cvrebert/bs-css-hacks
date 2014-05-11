@@ -7,7 +7,8 @@ bs-css-hacks
 `resize` requires `overflow: auto;` in Safari (version unknown)
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 //--------------
-  &::-moz-placeholder           { opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
+// See https://github.com/twbs/bootstrap/pull/11526
+&::-moz-placeholder           { opacity: 1; }
 //--------------
 https://github.com/twbs/bootstrap/pull/3552
 //--------------
