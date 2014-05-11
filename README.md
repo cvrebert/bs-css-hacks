@@ -17,7 +17,6 @@ https://github.com/twbs/bootstrap/pull/3552
 https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 @import "media.less";
 @import "list-group.less";
-@import "panels.less";
 
 // Components w/ JavaScript
 @import "modals.less";
