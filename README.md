@@ -11,6 +11,7 @@ bs-css-hacks
 input[disabled] & {
   opacity: 1; // iOS fix for unreadable disabled content
 }
+https://github.com/twbs/bootstrap/issues/11655
 //--------------
 label {
   display: inline-block;
