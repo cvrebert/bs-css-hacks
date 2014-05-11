@@ -19,7 +19,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 
 // Layout
 @import "mixins/grid-framework.less";
-@import "mixins/grid.less";
 
 // Core CSS
 @import "scaffolding.less";
