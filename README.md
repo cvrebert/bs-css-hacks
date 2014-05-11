@@ -93,3 +93,6 @@ fieldset {
 background-color: #000 \9; // IE8
 background-color: rgba(0,0,0,0); // IE9
 ```
+
+---
+https://github.com/twbs/bootstrap/blob/master/docs/browser-bugs.html
