@@ -6,7 +6,6 @@ bs-css-hacks
 
 // Core CSS
 @import "scaffolding.less";
-@import "code.less";
 @import "grid.less";
 @import "tables.less";
 @import "forms.less";
