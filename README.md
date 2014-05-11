@@ -27,10 +27,15 @@ fieldset {
 //--------------
 `resize` requires `overflow: auto;` in Safari (version unknown)
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
-//--------------
-// See https://github.com/twbs/bootstrap/pull/11526
+```
+---
+* https://github.com/twbs/bootstrap/pull/11526
+```css
 &::-moz-placeholder           { opacity: 1; }
-//--------------
+```
+* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
+---
+```
 https://github.com/twbs/bootstrap/pull/3552
 //--------------
 https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
