@@ -1,6 +1,8 @@
 bs-css-hacks
 ============
 ```
+@import "mixins/grid-framework.less";
+@import "forms.less";
 //--------------
 `resize` requires `overflow: auto;` in Safari (version unknown)
 http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
@@ -11,10 +13,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 https://github.com/twbs/bootstrap/pull/3552
 //--------------
 https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
-
-//--------------
-@import "mixins/grid-framework.less";
-@import "forms.less";
 
 //--------------
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
