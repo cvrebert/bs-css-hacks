@@ -12,7 +12,6 @@ http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 //--------------
 // Components
 @import "mixins/list-group.less";
-@import "mixins/nav-divider.less";
 @import "mixins/forms.less";
 
 // Layout
