@@ -19,7 +19,7 @@ https://github.com/twbs/bootstrap/pull/3552
 @import "navs.less";
 @import "navbar.less";
 @import "breadcrumbs.less";
-@import "pagination.less";
+@import "";
 @import "labels.less";
 @import "badges.less";
 @import "jumbotron.less";
