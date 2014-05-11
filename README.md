@@ -9,7 +9,6 @@ bs-css-hacks
 @import "mixins/opacity.less";
 @import "mixins/image.less";
 @import "mixins/labels.less";
-@import "mixins/reset-filter.less";
 @import "mixins/resize.less";
 @import "mixins/responsive-visibility.less";
 @import "mixins/size.less";
