@@ -12,12 +12,11 @@ bs-css-hacks
 ```
 ---
 ```css
-input[disabled] & {
+textarea[disabled] & {
   opacity: 1; // iOS fix for unreadable disabled content
 }
 ```
 * https://github.com/twbs/bootstrap/issues/11655
-* applies to textual inputs and textareas
 * sets natural ios opacity of 0.4
 
 ---
@@ -117,3 +116,4 @@ input[type="file"] {
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button$compare?to=587233&from=584697
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=587235&from=536155
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=587243&from=578897
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
