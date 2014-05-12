@@ -97,13 +97,8 @@ background-color: rgba(0,0,0,0); // IE9
 ```
 
 ---
-The Fennec default gradient (& file border) can be negated by:
+The Fennec default file border can be negated by:
 ```css
-input[type="text"]
-{
-  background-image: none;
-}
-
 input[type="file"] {
   border: none;
 }
@@ -117,3 +112,4 @@ input[type="file"] {
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=587235&from=536155
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=587243&from=578897
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588021&from=588017
