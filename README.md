@@ -17,6 +17,8 @@ input[disabled] & {
 }
 ```
 * https://github.com/twbs/bootstrap/issues/11655
+* applies to textual inputs and textareas
+* sets natural ios opacity of 0.4
 
 ---
 ```css
