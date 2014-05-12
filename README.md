@@ -103,6 +103,7 @@ input[type="file"] {
   border: none;
 }
 ```
+* https://github.com/twbs/bootstrap/issues/8702
 
 ---
 ## Results
