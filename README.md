@@ -50,10 +50,10 @@ fieldset {
 * https://github.com/twbs/bootstrap/pull/3552
 
 ---
-Android `<select>` bug
+[Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
 
 ---
-IE viewport width bug
+[IE viewport width bug](http://getbootstrap.com/getting-started/#support-ie10-width)
 
 ---
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
