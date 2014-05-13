@@ -93,15 +93,6 @@ background-color: rgba(0,0,0,0); // IE9
 ```
 
 ---
-The Android Firefox default file border can be negated by:
-```css
-input[type="file"] {
-  border: none;
-}
-```
-* 
-
----
 ## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
