@@ -49,9 +49,6 @@ fieldset {
 [Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
 
 ---
-[IE viewport width bug](http://getbootstrap.com/getting-started/#support-ie10-width)
-
----
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
@@ -81,6 +78,8 @@ fieldset {
   width: device-width;
 }
 ```
+* http://getbootstrap.com/getting-started/#support-ie10-width
+
 ---
 ```css
 // IE8-9 hack for event handling
