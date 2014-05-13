@@ -14,14 +14,6 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 // given height of the input. Since this fucks up everything else, we have to
 // appropriately reset it for Internet Explorer and the size variations.
 ```
----
-```css
-textarea[disabled] & {
-  opacity: 1; // iOS fix for unreadable disabled content
-}
-```
-* https://github.com/twbs/bootstrap/issues/11655
-* iOS sets a default opacity of 0.4 here
 
 ---
 ```css
