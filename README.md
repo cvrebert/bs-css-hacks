@@ -47,6 +47,7 @@ fieldset {
 
 ---
 [Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
+* http://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with
 
 ---
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
