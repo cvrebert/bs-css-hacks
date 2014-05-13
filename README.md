@@ -11,9 +11,9 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 // Special styles for iOS date input
 //
 // In Mobile Safari, date inputs require a pixel line-height that matches the
-// given height of the input. Since this fucks up everything else, we have to
-// appropriately reset it for Internet Explorer and the size variations.
+// given height of the input.
 ```
+* https://github.com/twbs/bootstrap/issues/11266
 
 ---
 ```css
