@@ -100,7 +100,7 @@ background-color: rgba(0,0,0,0); // IE9
 ```
 
 ---
-The Fennec default file border can be negated by:
+The Android Firefox default file border can be negated by:
 ```css
 input[type="file"] {
   border: none;
