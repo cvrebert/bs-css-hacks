@@ -109,6 +109,7 @@ input[type="file"] {
 ---
 ## Results
 
+The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
 * [Firefox placeholder text opacity](https://github.com/twbs/bootstrap/pull/11526)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
@@ -118,3 +119,5 @@ input[type="file"] {
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588021&from=588017
 * [iOS Safari `input[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
+
+Hopefully these edits will survive in some form and not get wholesale reverted.
