@@ -120,7 +120,8 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=587235&from=536155
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=587243&from=578897
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588303&from=588017
-* [iOS Safari `input[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
+* [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
