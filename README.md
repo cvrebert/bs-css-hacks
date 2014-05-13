@@ -99,7 +99,7 @@ background-color: rgba(0,0,0,0); // IE9
 ## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
-* [Firefox placeholder text opacity](https://github.com/twbs/bootstrap/pull/11526)
+* [Firefox `placeholder` text opacity](https://github.com/twbs/bootstrap/pull/11526)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button$compare?to=587233&from=584697
