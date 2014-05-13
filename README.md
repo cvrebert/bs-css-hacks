@@ -40,7 +40,10 @@ fieldset {
 * http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 
 ---
-* https://github.com/twbs/bootstrap/pull/3552
+> Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
+> Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
+
+* See https://github.com/twbs/bootstrap/pull/3552
 
 ---
 [Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
