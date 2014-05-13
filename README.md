@@ -21,7 +21,7 @@ textarea[disabled] & {
 }
 ```
 * https://github.com/twbs/bootstrap/issues/11655
-* sets natural iOS opacity of 0.4
+* iOS sets a default opacity of 0.4 here
 
 ---
 ```css
