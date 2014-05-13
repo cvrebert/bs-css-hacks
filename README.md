@@ -1,7 +1,9 @@
 bs-css-hacks
 ============
 #### Index of CSS bugs/quirks/incompatibilities that Bootstrap works around.<br>Goal: Ensure each of these is mentioned in at least 1 [MDN](https://developer.mozilla.org/en-US/docs/Web)-like resource.<br>Because a common wiki is better than a bunch of scattered blog posts.
-#### The following entries remain to be documented:
+
+---
+## To be documented
 
 ---
 ```
