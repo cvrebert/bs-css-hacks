@@ -46,7 +46,7 @@ fieldset {
 * See https://github.com/twbs/bootstrap/pull/3552
 
 ---
-[Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
+* [Android `<select>` bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
 * http://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with
 
 ---
