@@ -109,7 +109,7 @@ input[type="file"] {
 * https://github.com/twbs/bootstrap/issues/8702
 
 ---
-## Results
+## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
 * [Firefox placeholder text opacity](https://github.com/twbs/bootstrap/pull/11526)
