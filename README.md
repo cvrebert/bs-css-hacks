@@ -99,7 +99,7 @@ input[type="file"] {
   border: none;
 }
 ```
-* https://github.com/twbs/bootstrap/issues/8702
+* 
 
 ---
 ## Resulting documentation improvements
@@ -112,6 +112,7 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=587235&from=536155
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=587243&from=578897
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588303&from=588017
+* [Firefox for Android border on `input[type="file"]`](https://github.com/twbs/bootstrap/issues/8702)
 * [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
