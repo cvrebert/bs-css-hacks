@@ -14,6 +14,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 // given height of the input.
 ```
 * https://github.com/twbs/bootstrap/issues/11266
+  * @mdo: "the comment seems to imply unitless values are busted"
 
 ---
 ```css
