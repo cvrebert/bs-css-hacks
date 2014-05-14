@@ -25,17 +25,6 @@ label {
 * See https://github.com/twbs/bootstrap/issues/13141
 
 ---
-```css
-fieldset {
-  // Chrome and Firefox set a `min-width: -webkit-min-content;` on fieldsets,
-  // so we reset that to ensure it behaves more like a standard block element.
-  // 
-  min-width: 0;
-}
-```
-* See https://github.com/twbs/bootstrap/issues/12359.
-
----
 * `resize` requires `overflow: auto;` in Safari (version unknown)
 * http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 
@@ -100,6 +89,8 @@ background-color: rgba(0,0,0,0); // IE9
 ## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
+* [`<fieldset>` `min-width` legacy weirdness](https://github.com/twbs/bootstrap/issues/12359)
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset$compare?to=589697&from=584707
 * [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
