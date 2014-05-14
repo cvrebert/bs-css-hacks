@@ -100,6 +100,9 @@ background-color: rgba(0,0,0,0); // IE9
 ## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
+* [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
 * [Firefox `placeholder` text opacity](https://github.com/twbs/bootstrap/pull/11526)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
@@ -109,8 +112,5 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588303&from=588017
 * [Firefox for Android border on `input[type="file"]`](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588351&from=588303
-* [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
-  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
-  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
