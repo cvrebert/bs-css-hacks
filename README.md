@@ -100,6 +100,6 @@ The following incompatibilities have been successfully documented in [MDN](https
 * [Firefox for Android border on `input[type="file"]`](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588351&from=588303
 * [`resize` requires `overflow` other than `visible`](https://github.com/twbs/bootstrap/pull/13600)
-  * Is already documented in MDN. The Bootstrap source code comment was in error.
+  * [Is already documented in MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/resize) The Bootstrap source code comment was in error.
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
