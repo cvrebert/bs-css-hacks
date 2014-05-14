@@ -25,7 +25,7 @@ label {
 * See https://github.com/twbs/bootstrap/issues/13141
 
 ---
-* `resize` requires `overflow: auto;`
+### `resize` requires `overflow` other than `visible`
 * https://github.com/twbs/bootstrap/commit/648c4689273647c321dd6e3979d910282e9a9339
 * https://developer.mozilla.org/en-US/docs/Web/CSS/resize
   * "`resize` does not apply to blocks for which the `overflow` property is set to `visible`."
