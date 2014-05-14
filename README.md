@@ -26,6 +26,7 @@ label {
 
 ---
 * `resize` requires `overflow: auto;` in Safari (version unknown)
+* https://github.com/twbs/bootstrap/commit/648c4689273647c321dd6e3979d910282e9a9339
 * http://stackoverflow.com/questions/1837926/css3-resize-in-webkit-safari
 * https://developer.mozilla.org/en-US/docs/Web/CSS/resize
   * "`resize` does not apply to blocks for which the `overflow` property is set to `visible`."
