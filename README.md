@@ -47,9 +47,9 @@ label {
 * Details: https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
 
 ---
+### Viewport width bug in IE10 in Windows 8 and Windows Phone 8
+
 ```css
-// IE10 in Windows (Phone) 8
-//
 // Support for responsive views via media queries is kind of borked in IE10, for
 // Surface/desktop in split view and for Windows Phone 8. This particular fix
 // must be accompanied by a snippet of JavaScript to sniff the user agent and
@@ -67,6 +67,7 @@ label {
 }
 ```
 * http://getbootstrap.com/getting-started/#support-ie10-width
+* Supposedly [fixed in Windows Phone 8 Update 3 (a.k.a. GDR3)](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/10/14/introducing-windows-phone-preview-for-developers.aspx)
 
 ---
 ```css
