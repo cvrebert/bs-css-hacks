@@ -69,6 +69,10 @@ label {
 ```
 * http://getbootstrap.com/getting-started/#support-ie10-width
 * Supposedly [fixed in Windows Phone 8 Update 3 (a.k.a. GDR3)](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/10/14/introducing-windows-phone-preview-for-developers.aspx)
+  * Although apparently there's some dispute as to whether the Lumia Black version of GDR3 actually fixed this, particularly for Lumia 920 phones
+    * https://github.com/twbs/bootstrap/issues/8719#issuecomment-35170732
+    * https://github.com/twbs/bootstrap/issues/12285#issuecomment-32753285
+    * https://github.com/twbs/bootstrap/issues/13238#issue-30487014
 
 ---
 ```css
