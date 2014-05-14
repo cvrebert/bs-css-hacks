@@ -34,6 +34,7 @@ label {
 * http://www.w3.org/TR/css3-ui/#resize
   * "Applies to:	elements with `overflow` other than `visible`"
   * "The `resize` property applies to elements whose computed `overflow` value is something other than `visible`."
+
 ---
 > Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
 > Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
