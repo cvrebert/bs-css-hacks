@@ -36,6 +36,7 @@ label {
 * http://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with
 
 ---
+* IE8 and CSS max-width on images
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
