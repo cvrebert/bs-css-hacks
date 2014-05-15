@@ -33,11 +33,6 @@ label {
 * See https://github.com/twbs/bootstrap/pull/3552
 
 ---
-### Android `<select>` bug
-* http://getbootstrap.com/getting-started/#support-android-stock-browser
-* http://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with
-
----
 * IE8 and CSS max-width on images
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
@@ -99,6 +94,8 @@ The following incompatibilities have been successfully documented in [MDN](https
 * [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
+* [Android Browser `<select>` menu indicator triangle bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=590135&from=590133
 * [Firefox `placeholder` text opacity](https://github.com/twbs/bootstrap/pull/11526)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
