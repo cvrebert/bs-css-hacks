@@ -83,6 +83,7 @@ label {
 background-color: #000 \9; // IE8
 background-color: rgba(0,0,0,0); // IE9
 ```
+* https://github.com/twbs/bootstrap/pull/11186
 * https://github.com/twbs/bootstrap/commit/6a93a6b88a4b874fba5a1d1edd817cbd91ccfacc
 
 ---
