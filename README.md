@@ -25,6 +25,8 @@ label {
 }
 ```
 * See https://github.com/twbs/bootstrap/issues/13141
+* No idea as to the cause; hasLayout maybe???
+  * http://www.sitepoint.com/web-foundations/internet-explorer-haslayout-property/
 
 ---
 > Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
