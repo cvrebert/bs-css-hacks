@@ -35,6 +35,7 @@ label {
 > Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
 
 * See https://github.com/twbs/bootstrap/pull/3552
+* http://jsbin.com/pisagahi/1
 
 ---
 ### IE8 and CSS max-width on images
