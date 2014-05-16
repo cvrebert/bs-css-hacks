@@ -7,9 +7,8 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ## To be documented
 
 ---
+### iOS date input
 ```
-// Special styles for iOS date input
-//
 // In Mobile Safari, date inputs require a pixel line-height that matches the
 // given height of the input.
 ```
