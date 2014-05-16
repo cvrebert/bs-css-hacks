@@ -17,6 +17,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 * https://github.com/twbs/bootstrap/pull/13099
 
 ---
+### IE8 line wrapping bug
 ```css
 label {
   display: inline-block;
@@ -28,16 +29,19 @@ label {
   * http://www.sitepoint.com/web-foundations/internet-explorer-haslayout-property/
 
 ---
+### IE8 text input rendering bug when parent has opacity alpha filter
 > Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
+>
 > Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
 
 * See https://github.com/twbs/bootstrap/pull/3552
 
 ---
-* IE8 and CSS max-width on images
+### IE8 and CSS max-width on images
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
+### IE9 `display: table-cell` bug
 ```
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
 // select elements in input groups. To fix it, we float the input.
@@ -72,6 +76,7 @@ label {
     * https://github.com/twbs/bootstrap/issues/13238#issue-30487014
 
 ---
+### IE9 click events require background-color bug
 ```css
 // IE8-9 hack for event handling
 //
