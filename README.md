@@ -93,10 +93,16 @@ background-color: rgba(0,0,0,0); // IE9
 * https://github.com/twbs/bootstrap/pull/11186
 * https://github.com/twbs/bootstrap/commit/6a93a6b88a4b874fba5a1d1edd817cbd91ccfacc
 * Explicit `background-color: transparent;` does not help
-* `filter: alpha(opacity=0);` does not help
-* `opacity: 0;` does not help
+* `filter: alpha(opacity=0);` alone does not help
+* `opacity: 0;` alone does not help
   * is not supported in IE8
   * is supported in IE9, but setting only an `opacity` doesn't avoid the bug
+* IE9: `opacity` + non-`transparent` `background-color` works as a fix
+* `rgba(0,0,0,0)`
+  * is not supported in IE8
+  * works as a fix in IE9
+* IE8-9: `filter: alpha(opacity=0);` + non-`transparent` `background-color` probably
+* Need to test `background: transparent`
 
 ---
 ## Resulting documentation improvements
