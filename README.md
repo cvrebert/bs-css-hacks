@@ -52,24 +52,8 @@ label {
 
 ---
 ### Viewport width bug in IE10 in Windows 8 and Windows Phone 8
-
-```css
-// Support for responsive views via media queries is kind of borked in IE10, for
-// Surface/desktop in split view and for Windows Phone 8. This particular fix
-// must be accompanied by a snippet of JavaScript to sniff the user agent and
-// apply some conditional CSS to *only* the Surface/desktop Windows 8. Look at
-// our Getting Started page for more information on this bug.
-//
-// For more information, see the following:
-//
-// Issue: https://github.com/twbs/bootstrap/issues/10497
-// Docs: http://getbootstrap.com/getting-started/#browsers
-// Source: http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
-
-@-ms-viewport {
-  width: device-width;
-}
-```
+* https://github.com/twbs/bootstrap/issues/10497
+* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
 * http://getbootstrap.com/getting-started/#support-ie10-width
 * Supposedly [fixed in Windows Phone 8 Update 3 (a.k.a. GDR3)](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/10/14/introducing-windows-phone-preview-for-developers.aspx)
   * Although apparently there's some dispute as to whether the Lumia Black version of GDR3 actually fixed this, particularly for Lumia 920 phones
