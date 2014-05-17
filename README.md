@@ -39,6 +39,7 @@ label {
 
 ---
 ### IE8 and CSS max-width on images
+* https://github.com/twbs/bootstrap/issues/9239
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
