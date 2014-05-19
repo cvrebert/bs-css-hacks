@@ -36,7 +36,7 @@ label {
 
 * See https://github.com/twbs/bootstrap/pull/3552
 * http://jsbin.com/pisagahi/1
-* **Unable to reproduce in IE8 on Sauce Labs**
+* **Unable to reproduce in IE7 or IE8 on Sauce Labs**
 
 ---
 ### IE8 and CSS max-width on images
