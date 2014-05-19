@@ -35,7 +35,7 @@ label {
 > Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
 
 * See https://github.com/twbs/bootstrap/pull/3552
-* http://jsbin.com/pisagahi/1
+* http://jsbin.com/bazakefu/3/
 * **Unable to reproduce in IE7 or IE8 on Sauce Labs**
 * Perhaps related to http://snook.ca/archives/html_and_css/ie-position-fixed-opacity-filter ?
   * Couldn't repro this on Sauce either...
