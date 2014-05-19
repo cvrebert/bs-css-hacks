@@ -75,7 +75,7 @@ background-color: rgba(0,0,0,0); // IE9
 * `rgba(0,0,0,0)`
   * is not supported in IE8
   * works as a fix in IE9
-* IE8-9: `filter: alpha(opacity=0);` + non-`transparent` `background-color` probably
+* IE8-9: `filter: alpha(opacity=0);` + non-`transparent` `background-color` works as a fix
 * Need to test `background: transparent`
 
 ---
