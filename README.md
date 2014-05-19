@@ -7,7 +7,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ## To be documented
 
 ---
-### iOS date input
+### iOS temporal `<input>` `line-height`
 ```
 // In Mobile Safari, date inputs require a pixel line-height that matches the
 // given height of the input.
