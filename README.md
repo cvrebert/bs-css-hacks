@@ -51,17 +51,6 @@ label {
 * Details: https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
 
 ---
-### Viewport width bug in IE10 in Windows 8 and Windows Phone 8
-* https://github.com/twbs/bootstrap/issues/10497
-* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
-* http://getbootstrap.com/getting-started/#support-ie10-width
-* Supposedly [fixed in Windows Phone 8 Update 3 (a.k.a. GDR3)](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/10/14/introducing-windows-phone-preview-for-developers.aspx)
-  * Although apparently there's some dispute as to whether the Lumia Black version of GDR3 actually fixed this, particularly for Lumia 920 phones
-    * https://github.com/twbs/bootstrap/issues/8719#issuecomment-35170732
-    * https://github.com/twbs/bootstrap/issues/12285#issuecomment-32753285
-    * https://github.com/twbs/bootstrap/issues/13238#issue-30487014
-
----
 ### IE9 click events require background-color bug
 ```css
 // IE8-9 hack for event handling
@@ -95,11 +84,16 @@ background-color: rgba(0,0,0,0); // IE9
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
 * [`<fieldset>` `min-width` legacy weirdness](https://github.com/twbs/bootstrap/issues/12359)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset$compare?to=589697&from=584707
+* [`resize` requires `overflow` other than `visible`](https://github.com/twbs/bootstrap/pull/13600)
+  * [Is already documented in MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/resize) The Bootstrap source code comment was in error.
+  * Also filed https://github.com/CSSLint/csslint/issues/517
 * [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
 * [Android Browser `<select>` menu indicator triangle bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=590135&from=590133
+* [Viewport `device-width` bug in IE10 on Windows 8 and Windows Phone 8](https://github.com/twbs/bootstrap/issues/10497)
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport$compare?to=592567&from=592565
 * [Firefox `placeholder` text opacity](https://github.com/twbs/bootstrap/pull/11526)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
@@ -109,8 +103,5 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588303&from=588017
 * [Firefox for Android border on `input[type="file"]`](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588351&from=588303
-* [`resize` requires `overflow` other than `visible`](https://github.com/twbs/bootstrap/pull/13600)
-  * [Is already documented in MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/resize) The Bootstrap source code comment was in error.
-  * Also filed https://github.com/CSSLint/csslint/issues/517
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
