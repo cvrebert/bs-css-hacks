@@ -37,6 +37,8 @@ label {
 * See https://github.com/twbs/bootstrap/pull/3552
 * http://jsbin.com/pisagahi/1
 * **Unable to reproduce in IE7 or IE8 on Sauce Labs**
+* Perhaps related to http://snook.ca/archives/html_and_css/ie-position-fixed-opacity-filter ?
+  * Couldn't repro this on Sauce either...
 
 ---
 ### IE8 and CSS max-width on images
