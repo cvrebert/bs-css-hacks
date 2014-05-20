@@ -53,7 +53,7 @@ label {
 * Details: https://github.com/twbs/bootstrap/issues/11561#issuecomment-28936855
 
 ---
-### IE9 click events require background-color bug
+### IE9 click events require non-`transparent` `background-color` bug
 ```css
 // IE8-9 hack for event handling
 //
