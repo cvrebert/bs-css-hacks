@@ -25,6 +25,7 @@ label {
 }
 ```
 * See https://github.com/twbs/bootstrap/issues/13141
+* Progress on a reduced testcase: https://github.com/cvrebert/bootstrap/tree/ie8-label-wrap-bug
 * Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
 
 ---
