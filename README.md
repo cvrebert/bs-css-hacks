@@ -29,18 +29,6 @@ label {
 * Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
 
 ---
-### IE8 text input rendering bug when parent has opacity alpha filter
-> Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
->
-> Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
-
-* See https://github.com/twbs/bootstrap/pull/3552
-* http://jsbin.com/bazakefu/3/
-* **Unable to reproduce in IE7 or IE8 on Sauce Labs**
-* Perhaps related to http://snook.ca/archives/html_and_css/ie-position-fixed-opacity-filter ?
-  * Couldn't repro this on Sauce either...
-
----
 ### IE8 and CSS max-width on images
 * https://github.com/twbs/bootstrap/issues/9239
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
@@ -107,3 +95,16 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588351&from=588303
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
+
+---
+## Unable to reproduce, so still undocumented
+### IE8 text input rendering bug when parent has opacity alpha filter
+> Seems there is a bug in IE7-8 where `input[type="text"]` & `<textarea>` that are in a container which has `filter: alpha(opacity=N);` are not re-rendered when being typed in.
+>
+> Curiously enough, if you move your mouse out of the parent with the `filter`, the text will magically appear / update.
+
+* See https://github.com/twbs/bootstrap/pull/3552
+* http://jsbin.com/bazakefu/3/
+* **Unable to reproduce in IE7 or IE8 on Sauce Labs**
+* Perhaps related to http://snook.ca/archives/html_and_css/ie-position-fixed-opacity-filter ?
+  * Couldn't repro this on Sauce either...
