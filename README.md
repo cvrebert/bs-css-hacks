@@ -16,6 +16,8 @@ This list is based on scanning through the comments in Bootstrap's Less source c
   * @mdo: "the comment seems to imply unitless values are busted"
 * https://github.com/twbs/bootstrap/pull/13099
 * Demo courtesy @mdo: http://jsbin.com/purer/1/
+* Enhanced demo courtesy @mdo: http://jsbin.com/purer/2/
+  * The issue seems to be caused by setting `display: block;` on the temporal `<input>`
 
 ---
 ### IE8 `inline-block` + `float` line wrapping bug
