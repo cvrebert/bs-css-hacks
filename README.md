@@ -17,7 +17,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 * https://github.com/twbs/bootstrap/pull/13099
 
 ---
-### IE8 line wrapping bug
+### IE8 `inline-block` + `float` line wrapping bug
 ```css
 label {
   display: inline-block;
@@ -29,12 +29,12 @@ label {
 * Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
 
 ---
-### IE8 and CSS max-width on images
+### IE8 and CSS `max-width` on images
 * https://github.com/twbs/bootstrap/issues/9239
 * https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
-### IE9 `display: table-cell` bug
+### IE9 `<input>` `display: table-cell` bug
 ```
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
 // select elements in input groups. To fix it, we float the input.
