@@ -25,8 +25,6 @@ label {
 }
 ```
 * See https://github.com/twbs/bootstrap/issues/13141
-* No idea as to the cause; hasLayout maybe???
-  * http://www.sitepoint.com/web-foundations/internet-explorer-haslayout-property/
 * Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
 
 ---
