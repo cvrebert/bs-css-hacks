@@ -15,6 +15,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 * https://github.com/twbs/bootstrap/issues/11266
   * @mdo: "the comment seems to imply unitless values are busted"
 * https://github.com/twbs/bootstrap/pull/13099
+* Demo courtesy @mdo: http://jsbin.com/purer/1/
 
 ---
 ### IE8 `inline-block` + `float` line wrapping bug
