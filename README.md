@@ -88,7 +88,7 @@ The following incompatibilities have been successfully documented in [MDN](https
 * [Viewport `device-width` bug in IE10 on Windows 8 and Windows Phone 8](https://github.com/twbs/bootstrap/issues/10497)
   * https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport$compare?to=592567&from=592565
 * [Firefox `placeholder` text opacity](https://github.com/twbs/bootstrap/pull/11526)
-  * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=587215&from=522761
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-placeholder$compare?to=592109&from=522761
 * [Firefox for Android gradients on form controls](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button$compare?to=587233&from=584697
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=587235&from=536155
