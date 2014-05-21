@@ -76,7 +76,7 @@ background-color: rgba(0,0,0,0); // IE9
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
 * [`<fieldset>` `min-width` legacy weirdness](https://github.com/twbs/bootstrap/issues/12359)
-  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset$compare?to=589697&from=584707
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset$compare?to=592121&from=584707
 * [`resize` requires `overflow` other than `visible`](https://github.com/twbs/bootstrap/pull/13600)
   * [Is already documented in MDN.](https://developer.mozilla.org/en-US/docs/Web/CSS/resize) The Bootstrap source code comment was in error.
   * Also filed https://github.com/CSSLint/csslint/issues/517
