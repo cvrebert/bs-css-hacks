@@ -7,17 +7,12 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ## To be documented
 
 ---
-### iOS temporal `<input>` `line-height`
-```
-// In Mobile Safari, date inputs require a pixel line-height that matches the
-// given height of the input.
-```
+### iOS temporal `<input>` vertical text alignment when `display: block`
+* The issue seems to be caused by setting `display: block;` on the temporal `<input>`
 * https://github.com/twbs/bootstrap/issues/11266
-  * @mdo: "the comment seems to imply unitless values are busted"
 * https://github.com/twbs/bootstrap/pull/13099
 * Demo courtesy @mdo: http://jsbin.com/purer/1/
 * Enhanced demo courtesy @mdo: http://jsbin.com/purer/2/
-  * The issue seems to be caused by setting `display: block;` on the temporal `<input>`
 
 ---
 ### IE8 `inline-block` + `float` line wrapping bug
