@@ -7,14 +7,6 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ## To be documented
 
 ---
-### iOS temporal `<input>` vertical text alignment when `display: block`
-* The issue seems to be caused by setting `display: block;` on the temporal `<input>`
-* https://github.com/twbs/bootstrap/issues/11266
-* https://github.com/twbs/bootstrap/pull/13099
-* Demo courtesy @mdo: http://jsbin.com/purer/1/
-* Enhanced demo courtesy @mdo: http://jsbin.com/purer/2/
-
----
 ### IE8 `inline-block` + `float` line wrapping bug
 ```css
 label {
@@ -83,6 +75,8 @@ The following incompatibilities have been successfully documented in [MDN](https
 * [iOS Safari `[disabled]` opacity](https://github.com/twbs/bootstrap/issues/11655)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588017&from=572223
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea$compare?to=588343&from=587245
+* [iOS temporal `<input>` with `display: block` has its text vertically misaligned](https://github.com/twbs/bootstrap/issues/11266)
+  * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=596375&from=596363
 * [Android Browser `<select>` menu indicator triangle bug](http://getbootstrap.com/getting-started/#support-android-stock-browser)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select$compare?to=590135&from=590133
 * [Viewport `device-width` bug in IE10 on Windows 8 and Windows Phone 8](https://github.com/twbs/bootstrap/issues/10497)
