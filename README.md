@@ -67,6 +67,11 @@ background-color: rgba(0,0,0,0); // IE9
 * IE8-9: `filter: alpha(opacity=0);` + non-`transparent` `background-color` works as a fix
 
 ---
+### `hover` and/or `:focus` stickiness on mobile browsers
+* Bootstrap doesn't currently have any code specificially related to this, but there have been a few bug reports about this, so I figure it oughtta be mentioned in MDN.
+* https://github.com/google/WebFundamentals/blob/master/src/site/documentation/user-input/touch-input/activestates/index.markdown#hover-and-focus-stickiness
+
+---
 ## Resulting documentation improvements
 
 The following incompatibilities have been successfully documented in [MDN](https://developer.mozilla.org/en-US/docs/Web):
