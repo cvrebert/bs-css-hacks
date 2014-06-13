@@ -34,7 +34,7 @@ label {
 ---
 ### `:hover` and/or `:focus` stickiness on mobile browsers
 * Bootstrap doesn't currently have any code specificially related to this, but there have been a few bug reports about this, so I figure it oughtta be mentioned in MDN.
-* https://github.com/google/WebFundamentals/blob/master/src/site/documentation/user-input/touch-input/activestates/index.markdown#hover-and-focus-stickiness
+* https://github.com/google/WebFundamentals/blob/master/src/site/input/touch/activestates/index.markdown#hover-and-focus-stickiness
 
 ---
 ## Resulting documentation improvements
