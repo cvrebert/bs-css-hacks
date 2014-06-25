@@ -65,7 +65,7 @@ The following incompatibilities have been successfully documented in [MDN](https
 * [Firefox for Android border on `input[type="file"]`](https://github.com/twbs/bootstrap/issues/8702)
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input$compare?to=588351&from=588303
 * [IE8-9 `click` events on `transparent` overlaid elements bug](https://github.com/twbs/bootstrap/pull/11186)
-  * https://developer.mozilla.org/en-US/docs/Web/Reference/Events/click$compare?to=615503&from=402259
+  * https://developer.mozilla.org/en-US/docs/Web/Events/click$compare?to=615503&from=402259
   * https://developer.mozilla.org/en-US/docs/Web/CSS/background-color$compare?to=615509&from=494737
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
