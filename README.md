@@ -6,24 +6,6 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ---
 ## To be documented
 
----
-### IE8 `inline-block` + `float` line wrapping bug
-```css
-label {
-  display: inline-block;
-  max-width: 100%; // Force IE8 to wrap long content
-}
-```
-* See https://github.com/twbs/bootstrap/issues/13141
-* Progress on a reduced testcase: https://github.com/cvrebert/bootstrap/tree/ie8-label-wrap-bug
-* Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
-
----
-### IE8 and CSS `max-width` on images
-* https://github.com/twbs/bootstrap/issues/9239
-* https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
-
----
 ### IE9 `<input>` `display: table-cell` bug
 ```
 // IE9 fubars the placeholder attribute in text inputs and the arrows on
@@ -69,6 +51,25 @@ The following incompatibilities have been successfully documented in [MDN](https
   * https://developer.mozilla.org/en-US/docs/Web/CSS/background-color$compare?to=615509&from=494737
 
 Hopefully these edits will survive in some form and not get wholesale reverted.
+
+---
+## IE8, so still undocumented
+
+### IE8 `inline-block` + `float` line wrapping bug
+```css
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content
+}
+```
+* See https://github.com/twbs/bootstrap/issues/13141
+* Progress on a reduced testcase: https://github.com/cvrebert/bootstrap/tree/ie8-label-wrap-bug
+* Possibly related to http://stackoverflow.com/questions/22550988/native-ie8-why-do-these-inline-block-elements-not-wrap-words-if-their-pare ?
+
+---
+### IE8 and CSS `max-width` on images
+* https://github.com/twbs/bootstrap/issues/9239
+* https://github.com/h5bp/html5-boilerplate/issues/984#issuecomment-3985989
 
 ---
 ## Unable to reproduce, so still undocumented
