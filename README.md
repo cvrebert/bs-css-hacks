@@ -17,6 +17,7 @@ This list is based on scanning through the comments in Bootstrap's Less source c
 ### `:hover` and/or `:focus` stickiness on mobile browsers
 * Bootstrap doesn't currently have any code specificially related to this, but there have been a few bug reports about this, so I figure it oughtta be mentioned in MDN.
 * https://github.com/google/WebFundamentals/blob/master/src/site/_en/fundamentals/input/touch/activestates/index.markdown#hover-and-focus-stickiness
+* Might eventually get a partial fix in Chrome: https://code.google.com/p/chromium/issues/detail?id=370155
 
 ---
 ## Resulting documentation improvements
